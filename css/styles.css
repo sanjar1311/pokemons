@@ -124,4 +124,8 @@ img {
 .pokemon__stat--width {
   right: -5px;
   box-shadow: 2.5px 0 0px #aaa;
+=======
+.modal .m-modal-main {
+  width: 100vh !important;
+  margin: 0;
 }
