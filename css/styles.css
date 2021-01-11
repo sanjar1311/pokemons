@@ -1,3 +1,89 @@
+
+.modal .m-modal-width {
+  max-width: 100% !important;
+  margin: 0;
+  border-radius: 0 !important;
+}
+.modal .m-modal-border {
+  border-radius: 0;
+  min-height: 100vh;
+  background-color: #000;
+}
+
+.modal .modal-inner-right {
+  min-width: 45%;
+  max-width: 45%;
+  border-radius: 10px;
+  padding: 30px 20px;
+  margin-left: auto;
+  margin-top: 60px;
+  margin-right: 60px;
+  background-color: #CCCCCC;
+}
+.m-description-title {
+  font-size: 20px;
+  font-weight: 900;
+  padding-bottom: 5px;
+  border-bottom: 2px solid #6890F0 ;
+}
+.m-evolution-inner {
+  margin-right: 25px;
+}
+.m-evolution-inner:last-child {
+  margin-right: 0;
+}
+.m-js-evalution-img:hover {
+  box-shadow: 0 0 10px 2px #999;
+  transform: scale(1.1, 1.1);
+  transition: box-shadow .2s ease;
+}
+.result {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.result__item {
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+.result__text {
+  margin: 0;
+  color: black;
+}
+.result__count {
+  display: flex;
+ width: 90%;
+ margin-left: 30px;
+ margin-right: 30px;
+ color: transparent;
+ text-align: center;
+ background-color: rgba(196, 196, 196, 0.9);
+ border-radius: 50px;
+}
+.result__span {
+  width: 15%;
+  border-radius: 50px;
+  background-image: linear-gradient(
+    to right, #22c02a, #a040a0
+  );
+}
+.pokimon-title {
+  font-size: 60px;
+  color: #fff;
+}
+.modal-inner-left {
+  margin: 100px;
+}
+.m-dismismodal-btn {
+  width: 45px;
+  height: 45px;
+  background-color: #fff !important;
+  padding: 5px !important;
+  border-radius: 50%;
+  text-align: center;
+=======
 html {
   box-sizing: border-box;
 }
