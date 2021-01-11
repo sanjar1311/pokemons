@@ -9,8 +9,67 @@
 </head>
 <body>
 
+  <!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+  Launch demo modal
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog m-modal-width" role="document">
+    <div class="modal-content m-modal-border">
+
+    </div>
+  </div>
+</div>
 
 
+<!-- Template Modal -->
+<template class="js-m-modal-template">
+  <div class="d-flex align-items-start mt-0">
+    <button class="m-4 close m-dismismodal-btn btn" type="button" data-dismiss="modal" aria-label="Close">X</button>
+    <div class="modal-inner-left d-flex flex-column align-items-center">
+      <img class="rounded-circle mb-4" src="https://picsum.photos/400/400?random=2" alt="">
+      <h2 class="js-m-pokemon-title pokimon-title">BULBASAUR</h2>
+    </div>
+
+    <div class="modal-inner-right">
+      <div class="m-description">
+        <h4 class="m-description-title d-inline-block">DESCRIPTION</h4>
+        <p class="js-m-modal-description-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat distinctio blanditiis corporis autem exercitationem labore molestiae harum! Dolores maiores provident, corrupti quisquam reprehenderi, cum.</p>
+      </div>
+      <div class="m-description mb-5">
+        <h4 class="m-description-title d-inline-block mb-4">EVOLUTIONS</h4>
+        <div class="description-inner d-flex mx-auto">
+          <div class="m-evolution-inner d-flex flex-column align-items-center mx-auto">
+            <img class="m-js-evalution-img rounded-circle mb-3" width="130" height="130" src="https://picsum.photos/200" alt="">
+            <p class="js-evalution-1 h5">SQUIRTLE</p>
+          </div>
+          <div class="m-evolution-inner d-flex flex-column align-items-center mx-auto">
+            <img class="m-js-evalution-img rounded-circle mb-3" width="130" height="130" src="https://picsum.photos/200" alt="">
+            <p class="js-evalution-1 h5">SQUIRTLE</p>
+          </div>
+          <div class="m-evolution-inner d-flex flex-column align-items-center mx-auto">
+            <img class="m-js-evalution-img rounded-circle mb-3" width="130" height="130" src="https://picsum.photos/200" alt="">
+            <p class="js-evalution-1 h5">SQUIRTLE</p>
+          </div>
+        </div>
+      </div>
+
+      <ul class="result">
+        <h4 class="m-description-title d-inline-block mb-4">STATS</h4>
+        <li class="result__item">
+          <p class="result__text">HP</p>
+          <span class="result__count">
+            <span class="result__span">1</span>
+          </span>
+          <p class="result__text">67</p>
+        </li>
+      </ul>
+
+    </div>
+  </div>
+</template>
 
   <script src="js/jquery-3.5.1.min.js"></script>
   <script src="js/bootstrap.bundle.min.js"></script>
