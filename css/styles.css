@@ -1,3 +1,4 @@
+
 .modal .m-modal-width {
   max-width: 100% !important;
   margin: 0;
@@ -82,4 +83,135 @@
   padding: 5px !important;
   border-radius: 50%;
   text-align: center;
+=======
+html {
+  box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Rubik" "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #fff;
+  color: #222;
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.list-unstyled.my-5.d-flex {
+  width: 100%;
+  padding: 50px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.pokemon-card__item.bg-white.position-relative{
+  width: 305px;
+  height: 265px;
+  text-align: center;
+  margin-bottom: 50px;
+  border-radius: 5px;
+  padding: 60px;
+  box-shadow: 0 0 15px #aaa;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* .pokemon-card__item.bg-white.w-25.mx-auto.position-relative:hover .pokemon__img.mx-auto.d-block {
+  transform: perspective(1px) translateZ(0);
+} */
+
+.text-center.mt-3.mb-2 {
+  text-transform: uppercase;
+  font-family: "Rubik";
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.text-center.my-0 {
+  font-family: "Rubik";
+  font-weight: normal;
+  font-size: 15px;
+}
+
+.mr-3.font-weight-bold.text-card-info {
+  font-family: "Rubik";
+  color: #a040a0;
+  font-size: 20px;
+}
+
+.ml-3.font-weight-bold.text-card-succes {
+  font-family: "Rubik";
+  color: #22c02a;
+  font-size: 20px;
+}
+
+.mr-5.font-weight-light {
+  font-family: "Rubik";
+  font-size: 13px;
+  font-weight: 300px;
+}
+
+.ml-5.font-weight-light {
+  font-family: "Rubik";
+  font-size: 13px;
+  font-weight: 300px;
+}
+
+.pokemon__img.mx-auto.d-block {
+  position: absolute;
+  top: -65px;
+  width: 160px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.pokemon__stat {
+  position: absolute;
+  width: 50px;
+  text-align: center;
+  background-color: #fff;
+  top: 50%;
+  transform: translateY(-50%);
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: 500px;
+  line-height: 50px;
+}
+
+.pokemon__stat--height {
+  left: -5px;
+  box-shadow: -2.5px 0 0px #aaa;
+}
+
+.pokemon__stat--width {
+  right: -5px;
+  box-shadow: 2.5px 0 0px #aaa;
+=======
+.modal .m-modal-main {
+  width: 100vh !important;
+  margin: 0;
 }
